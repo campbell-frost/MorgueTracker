@@ -1,0 +1,237 @@
+﻿/* Set some basic padding to keep content from hitting the edges */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 2.5rem;
+}
+
+.content {
+    margin-bottom: 2.5rem;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+}
+
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom Styles*/
+
+.date-picker {
+    width: 190px;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 15px;
+}
+
+.horizontal-line {
+    width: 100%;
+    color: black;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.result-box {
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid lightseagreen;
+    border-radius: 2px;
+}
+
+.form-control {
+    border-radius: 4px;
+    transition: none;
+    border-color: #cacaca;
+}
+
+    .form-control:focus {
+        border: 1px solid lightseagreen;
+    }
+
+.nav-link {
+    font-size: 30px;
+}
+
+    .nav-link.active {
+        font-weight: 600;
+        color: #101010;
+        font-size: 35px;
+        margin-top: -4px;
+    }
+
+#linkInsert, #linkSearch, #linkList {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+
+.btn {
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 3px;
+}
+
+    .btn:hover {
+        background-color: darkcyan;
+    }
+
+    .btn-primary:active:focus, .btn:active:focus {
+        background-color: #007272;
+    }
+
+
+.form-group {
+    position: relative;
+}
+
+.label {
+    padding: 2px;
+    color: #555;
+}
+
+.form-group:focus .label {
+    color: #008080;
+}
+
+.picked-up {
+    margin-top: 30px;
+}
+.picked-up .form-group{
+    text-align: end;
+
+}
+
+.me-3 {
+    margin-right: .7rem !important;
+}
+
+.ms-3 {
+    margin-left: .7rem !important;
+}
+
+
+.hr-line {
+    width: 100%;
+    height: 1px;
+    background-color: #cacaca;
+}
+
+.custom-table th {
+    background-color: lightseagreen !important;
+    color: white !important;
+}
+
+.no-wrap-label {
+    white-space: nowrap;
+}
+
+.form-check-inline{
+    text-align: end;
+}
+
+
+.scrollable-gridview {
+    overflow-y: auto;
+    overflow-y: auto;
+}
+
+
+
+@media screen and (max-width: 300px) {
+
+    .logo {
+        width: calc(100% - 20px);
+        max-width: 280px;
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 576px){
+
+    .form-check-inline {
+        text-align: start;
+    }
+
+
+    .form-check{
+        padding: 0px;
+        white-space: nowrap;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+    .btn-media {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+
+    .nav-link {
+        font-size: 25px;
+        margin-top: 1px;
+    }
+
+        .nav-link.active {
+            font-weight: 600;
+            color: #101010;
+            margin-top: -4px;
+            font-size: 30px;
+        }
+
+    .logo {
+        max-width: 180px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    /* for changing row direction on results page for query selectors*/
+    .row > .start-date,
+    .row > .end-date,
+    .row > .picked-up {
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+    }
+
+    .date-picker {
+        width: 140px;
+    }
+
+    .form-group row {
+        width: 100%;
+    }
+
+    .btn-media-lg {
+        width: 100%;
+    }
+
+ 
+}
