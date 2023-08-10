@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="MorgueTracker3.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="MorgueTracker.Global" Language="C#" %>
