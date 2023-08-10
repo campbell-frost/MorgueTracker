@@ -1,9 +1,9 @@
-﻿<%@ Page Title="List" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="List.aspx.cs" EnableEventValidation="false" Inherits="MorgueTracker3.List" %>
+﻿<%@ Page Title="Records" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Records.aspx.cs" EnableEventValidation="false" Inherits="MorgueTracker.Records" %>
 
 
-<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+<asp:Content ID="body" ContentPlaceHolderID="MainContent" runat="server">
     <main>
-        <section class="row justify-content-center" aria-labelledby="listPatientsTitle">
+        <section class="row justify-content-center" aria-labelledby="recordsTitle">
             <div class="col-12">
 
                 <div class="row flex-wrap">

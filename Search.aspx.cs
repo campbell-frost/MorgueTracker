@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using System.Text.RegularExpressions;
 using System.Web.UI;
 
-namespace MorgueTracker3
+namespace MorgueTracker
 {
     public partial class Search : Page
     {
@@ -24,7 +24,6 @@ namespace MorgueTracker3
             str = str.Trim('\\');
             return str;
         }
-
 
         public static string removeSlashesEmployee(string input)
         {

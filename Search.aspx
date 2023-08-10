@@ -1,7 +1,6 @@
-﻿<%@ Page Title="List" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Search.aspx.cs" EnableEventValidation="false" Inherits="MorgueTracker3.Search" %>
+﻿<%@ Page Title="Search" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Search.aspx.cs" EnableEventValidation="false" Inherits="MorgueTracker.Search" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
     <main>
         <section class="row justify-content-center" aria-labelledby="searchPatientTitle">
             <div class="col-lg-10 ">
@@ -150,12 +149,9 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
             </div>
-
         </section>
     </main>
     <script>

@@ -1,4 +1,4 @@
-﻿﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MorgueTracker3.SiteMaster" %>
+﻿﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MorgueTracker.SiteMaster" %>
 
 <!DOCTYPE html>
 
@@ -45,7 +45,7 @@
 
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a href="InsertPatient">
+                <a href="Intake">
                     <img src="Media/MicrosoftTeams-image.png" alt="McleodLogo" class="logo" style="max-height: 40px; margin-right: 20px; object-fit: contain;" />
                 </a>
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
@@ -54,9 +54,9 @@
                 </button>
                 <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item"><a id="linkInsert"  runat="server" class="nav-link" href="InsertPatient">Intake</a></li>
+                        <li class="nav-item"><a id="linkInsert"  runat="server" class="nav-link" href="Intake">Intake</a></li>
                         <li class="nav-item"><a id="linkSearch" runat="server" class="nav-link" href="Search">Search</a></li>
-                        <li class="nav-item"><a id="linkList" runat="server" class="nav-link" href="List">Records</a></li>
+                        <li class="nav-item"><a id="linkList" runat="server" class="nav-link" href="Records">Records</a></li>
                     </ul>
                 </div>
 

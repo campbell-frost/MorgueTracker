@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
@@ -8,9 +7,9 @@ using System.IO;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace MorgueTracker3
+namespace MorgueTracker
 {
-    public partial class List : Page
+    public partial class Records: Page
     {
         private string selectAll = "SELECT Patient_Name, Patient_ID, In_Employee_Name, In_Employee_ID, Created_Date, Out_Employee_Name, Out_Employee_ID, Location_In_Morgue, Funeral_Home, Funeral_Home_Employee, Picked_Up_Date ";
 

@@ -1,17 +1,12 @@
 ﻿using System;
 using System.Configuration;
 using System.Data.SqlClient;
-using System.Data;
-using System.Linq;
 using System.Web.UI;
 using System.Text.RegularExpressions;
-using System.Xml.Linq;
-using System.Security.Policy;
 
-
-namespace MorgueTracker3
+namespace MorgueTracker
 {
-    public partial class InsertPatient : Page
+    public partial class Intake : Page
     {
         private SqlConnection conn = new SqlConnection(ConfigurationManager.ConnectionStrings["Conn"].ConnectionString);
 
