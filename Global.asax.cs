@@ -7,7 +7,7 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace MorgueTracker3
+namespace MorgueTracker
 {
     public class Global : HttpApplication
     {

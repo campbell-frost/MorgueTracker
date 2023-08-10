@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Optimization;
 using System.Web.UI;
 
-namespace MorgueTracker3
+namespace MorgueTracker
 {
     public class BundleConfig
     {

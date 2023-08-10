@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MorgueTracker3 {
+namespace MorgueTracker {
     
     
     public partial class Site_Mobile {

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MorgueTracker3")]
+[assembly: AssemblyTitle("MorgueTracker")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("McLeod Health")]
-[assembly: AssemblyProduct("MorgueTracker3")]
+[assembly: AssemblyProduct("MorgueTracker")]
 [assembly: AssemblyCopyright("Copyright © McLeod Health 2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

@@ -7,9 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MorgueTracker3 {
-    
-    
-    public partial class ViewSwitcher {
+namespace MorgueTracker
+{
+
+
+    public partial class ViewSwitcher
+    {
     }
 }

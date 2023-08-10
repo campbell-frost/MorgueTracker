@@ -4,7 +4,7 @@ using System.Web;
 using System.Web.Routing;
 using Microsoft.AspNet.FriendlyUrls;
 
-namespace MorgueTracker3
+namespace MorgueTracker
 {
     public static class RouteConfig
     {
